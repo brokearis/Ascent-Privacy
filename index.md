@@ -51,9 +51,8 @@ Any biometric identifiers
 4. How We Use This Data
 The anonymous analytics data described in Section 2.2 is used solely to:
 
-Identify patterns where the scoring algorithm produces unusual or inaccurate results
-Improve the ML models and physics engine in future versions of the app
-Understand how different video qualities and device types affect analysis accuracy
+Identify patterns where the scoring algorithm produces unusual or inaccurate results. Improve the ML models and physics engine in future versions of the app. Understand how different video qualities and device types affect analysis accuracy.
+
 5. Data Sharing
 We do not sell, rent, or share your data with third parties for advertising or any commercial purpose.
 
