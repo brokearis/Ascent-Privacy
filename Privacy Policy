@@ -1,0 +1,33 @@
+enum LegalContent {
+    static let effectiveDate = "August 22, 2026"
+    // (Note: to also keep your name off the App Store *listing*, you need an Apple Developer Organization
+    // account — individual accounts display the person's legal name as the seller.)
+    static let developerName = "Ascent"
+    static let contactEmail = "brokearis@gmail.com"
+    static let jurisdiction = "[State/Country]"
+
+    static let privacy: [LegalSection] = [
+        LegalSection(heading: "1. Introduction",
+                     body: "This Privacy Policy explains how \(developerName) (\u{201C}we,\u{201D} \u{201C}us\u{201D}) handles information in connection with the Ascent app (the \u{201C}App\u{201D}). By using the App, you agree to this Policy."),
+        LegalSection(heading: "2. Videos Are Processed On Your Device",
+                     body: "The climbing videos you select are analyzed locally on your device to estimate body movement. We do not upload your raw videos to our servers. Videos remain on your device unless you choose to share or export them yourself."),
+        LegalSection(heading: "3. Information We Collect",
+                     body: "We collect: (a) a randomly generated anonymous identifier so we can associate analyses with your device without identifying you; (b) device and app information such as device model, operating system version, and app version; and (c) anonymized climb-analysis data derived from your videos, such as movement metrics, scores, timing, and pose-derived measurements. We do not require an account, name, email, or precise location."),
+        LegalSection(heading: "4. How We Use Information",
+                     body: "We use this information to provide and operate the App, calculate and store your results, understand aggregate usage, diagnose problems, and improve our analysis and features."),
+        LegalSection(heading: "5. Analytics and Service Providers",
+                     body: "We use third-party services, including Google Firebase and Google Analytics for Firebase, to host anonymized analysis data and understand app usage. These providers process data on our behalf under their own terms and privacy policies. We do not sell your personal information."),
+        LegalSection(heading: "6. Data Retention",
+                     body: "We retain anonymized analysis data for as long as needed to provide the App and for legitimate business purposes. Data stored only on your device is removed when you delete the App or clear its data."),
+        LegalSection(heading: "7. Your Choices",
+                     body: "You can limit tracking through your device privacy settings, and you can stop all local and uploaded processing by discontinuing use of the App. Deleting a saved climb in the App also permanently deletes that climb's anonymized analysis data from our servers, so deleting your climbs removes the associated data. You may also contact us at \(contactEmail)."),
+        LegalSection(heading: "8. Children\u{2019}s Privacy",
+                     body: "The App is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided information to us, contact us and we will take appropriate steps."),
+        LegalSection(heading: "9. International Users",
+                     body: "We may process and store information in countries other than yours. Where required, we take steps to provide appropriate safeguards for such transfers."),
+        LegalSection(heading: "10. Changes to This Policy",
+                     body: "We may update this Policy from time to time. Material changes will be reflected by updating the effective date above."),
+        LegalSection(heading: "11. Contact",
+                     body: "For privacy questions or requests, contact \(contactEmail).")
+    ]
+}
